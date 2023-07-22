@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rumah Sakit Sriwijaya</title>
+    <meta
+      name="description"
+      content="A classic company or blog layout with a sidebar. Built with Pico CSS."
+    />
+    <link rel="shortcut icon" href="./img/favicon/medical.ico" />
+    <link rel="canonical" href="https://picocss.com/examples/company/" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <style>
+    .all{
+      font-family: Georgia, Times, serif;
+    }
+    .bold{
+      font-weight: bold;
+    }
+    .contrast{
+      font-weight: bold;
+    }
+    .container{
+      padding-top: 2%;
+    }
+    .icon:hover{
+      height: 220px;
+      width: 220px;
+    }
+    .hover:hover{
+      font-weight: bold;
+      color : rgba(16, 16, 29, 0.932);
+    }
+    .gambar{
+      width: 30px;
+    }
+  </style>
+  <body class = "all">
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <a href="/" class="contrast" 
+              ><img src="img/unsri.png" class="icon gambar2" style="height:auto;padding-left:5%"></a
+            >
+          </li>
+        </ul>
+        <ul>
+          <img src="img/cek.png" class="gambar">
+          <li>
+            <a href="cek-nomor-antrian.html" class="hover contrast" 
+              ><u>Antrian</u></a
+            >
+          </li>
+          <img src="img/login.png" class="gambar">
+          <li>
+            <a href="login.html" class="hover contrast"
+              >Login</a
+            >
+          </li>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Tema</summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>Rumah Sakit Sriwijaya</h1>
+          <h2>Rumah Sakit Sriwijaya merupakan rumah sakit tipe C yang telah terakreditasi KARS tingkat utama.</h2>
+        </hgroup>
+        <p><a href="index.html" role="button" id="big-btn">Kembali</a></p>
+      </header>
+    </div>
+    <!-- ./ Hero -->
+
+
+    <!-- Subscribe -->
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2 class = "bold">Nomor Antrian Sekarang</h2>
+            <h3></h3>
+          </hgroup>
+          <form class="grid">
+            <div class="form-group">
+                <table id="datatablesSimple">
+                  <thead>
+                      <tr>
+                          <th class="bold">Nama</th>
+                          <th class="bold">Nomor Handphone</th>
+                          <th class="bold">Antrian</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                            <td>Frederick Roberto Wifani</td>
+                            <td>081232131232</td>
+                            <td>Now</td>
+                        </tr>
+                </tbody>
+                </table>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- ./ Subscribe -->
+
+    <!-- Footer -->
+    <footer class="container">
+      <small>Dibuat oleh <a href="">Ahmad Hutri Semendawai</a> •
+        <a href="">Muhammad Kevin Darrel</a> •
+        <a href="https://github.com/frederickroberto">Frederick Roberto Wifani</a>
+      </small>
+    </footer>
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+  </body>
+</html>

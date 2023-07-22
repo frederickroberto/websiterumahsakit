@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rumah Sakit Sriwijaya</title>
+    <meta
+      name="description"
+      content="A classic company or blog layout with a sidebar. Built with Pico CSS."
+    />
+    <link rel="shortcut icon" href="./img/favicon/medical.ico" />
+   
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <style>
+    .all{
+      font-family: Georgia, Times, serif;
+    }
+    .contrast{
+      font-weight: bold;
+    }
+    .container{
+      padding-top: 2%;
+    }
+    .bold{
+      font-weight: bold;
+    }
+    .icon:hover{
+      height: 220px;
+      width: 220px;
+    }
+    .hover:hover{
+      font-weight: bold;
+      color : rgba(16, 16, 29, 0.932);
+    }
+    .gambar{
+      width: 30px;
+    }
+    
+  </style>
+  <body class = "all">
+    <!-- Hero -->
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <a class="contrast" 
+              ><img src="img/unsri.png" class="icon gambar2" style="height:auto;padding-left:5%"></a
+            >
+          </li>
+        </ul>
+        <ul>
+          <img src="img/cek.png" class="gambar">
+          <li>
+            <a href="cek-nomor-antrian.html" class="contrast" >
+             
+              <u class = "hover">Antrian</u></a
+            >
+          </li>
+          <img src="img/login.png" class="gambar">
+          <li>
+            <a href="login.html" class="hover contrast">Login</a>
+          </li>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="hover contrast">Tema</summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="light">Light</a></li>
+                <li><a href="#" data-theme-switcher="dark">Dark</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>Rumah Sakit Sriwijaya</h1>
+          <h2>Rumah Sakit Sriwijaya merupakan rumah sakit tipe C yang telah terakreditasi KARS tingkat utama.</h2>
+        </hgroup>
+          <p>
+            <a href="daftar.blade.html" role="button" id="big-btn">Daftar</a>
+          </p>
+      </header>
+    </div>
+    <!-- ./ Hero -->
+
+    <!-- Main -->
+    <main class="container">
+      <div class="grid">
+        <section>
+          <hgroup>
+            <h2 class = "bold">RS Sriwijaya: Pilihan Utama Perawatan Medis Berkualitas</h2>
+            <h3>Mengabdi dengan Keunggulan dan Empati untuk Kesehatan Anda</h3>
+          </hgroup>
+          <p>
+          Rumah Sakit Sriwijaya adalah fasilitas kesehatan terkemuka. Dengan pelayanan unggul dan tenaga medis terampil, RS Sriwijaya menjadi pilihan utama pasien. Dilengkapi teknologi modern dan fasilitas lengkap, RS Sriwijaya menyediakan perawatan medis yang berkualitas. Masyarakat percaya pada dedikasi dan profesionalisme rumah sakit ini. Sebagai pilar kesehatan, RS Sriwijaya terus berkomitmen untuk melayani dengan keunggulan dan empati.
+          </p>
+          <figure>
+            <img src="img/ashim-d-silva-3Ijt7UkSBYE-unsplash-1500x750.jpg" alt="Architecture" />
+            <figcaption>
+              Image from
+              <a href="https://unsplash.com/photos/3Ijt7UkSBYE" target="_blank">unsplash.com</a>
+            </figcaption>
+          </figure>
+          <h3>Nulla augue metus</h3>
+          <p>
+            Pacilisis sed ante ut, posuere volutpat quam. Maecenas maximus blandit mi ac finibus.
+            Proin quis lacinia tellus. Aliquam erat volutpat. Aliquam erat volutpat. Phasellus
+            suscipit nisi augue, id accumsan tortor auctor ut. Duis odio arcu, egestas nec nulla
+            vel, fermentum bibendum ex.
+          </p>
+          <h3>Sed purus sapien, porta a cursus sed, maximus et metus.</h3>
+          <p>
+            Phasellus molestie ante sed massa bibendum, eget tempus ex sollicitudin. Vestibulum
+            libero nulla, porttitor nec faucibus et, scelerisque eget quam. Nullam finibus tempor
+            dui, vel congue urna condimentum ac. Fusce ultricies mauris justo, nec vulputate mauris
+            pulvinar eu. Sed tempus ligula lorem, at tincidunt risus mollis non. Quisque et turpis
+            sit amet sapien gravida ullamcorper in eu velit. Curabitur luctus ornare finibus. Proin
+            tempor nulla sagittis est fermentum dapibus. Vestibulum posuere mattis congue. Ut
+            porttitor id sem euismod tristique. Quisque mi est, posuere nec lorem eu, vulputate
+            vehicula diam. Nullam scelerisque, libero posuere efficitur bibendum, urna odio finibus
+            lorem, sed volutpat dolor ligula in dolor. Suspendisse suscipit efficitur neque, ut
+            porta tellus mollis vel. Nam consequat arcu ac tellus porta, nec egestas orci sodales.
+          </p>
+        </section>
+
+        <aside>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"
+            ><img src="img/maarten-deckers-T5nXYXCf50I-unsplash-1500x750.jpg" alt="Architecture"
+          /></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Donec sit amet</a><br />
+            <small>Class aptent taciti sociosqu ad litora torquent per conubia nostra</small>
+          </p>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"
+            ><img src="img/daniel-von-appen-tb4heMa-ZRo-unsplash-1500-750.jpg" alt="Architecture"
+          /></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Suspendisse potenti</a><br />
+            <small>Proin non condimentum tortor. Donec in feugiat sapien.</small>
+          </p>
+          <a href="#" aria-label="Example" onclick="event.preventDefault()"
+            ><img src="img/matthew-hamilton-Ru3Ap8TNcsk-unsplash-1500-750.jpg" alt="Architecture"
+          /></a>
+          <p>
+            <a href="#" onclick="event.preventDefault()">Nullam lobortis placerat aliquam</a><br />
+            <small
+              >Maecenas vitae nibh blandit dolor commodo egestas vel eget neque. Praesent semper
+              justo orci, vel imperdiet mi auctor in.</small
+            >
+          </p>
+        </aside>
+      </div>
+    </main>
+    <!-- ./ Main -->
+
+
+    <!-- Footer -->
+    <footer class="container">
+      <small>Dibuat oleh <a href="">Ahmad Hutri Semendawai</a> •
+        <a href="">Muhammad Kevin Darrel</a> •
+        <a href="https://github.com/frederickroberto">Frederick Roberto Wifani</a>
+      </small>
+    </footer>
+    <!-- ./ Footer -->
+
+    <!-- Minimal theme switcher -->
+    <script src="js/minimal-theme-switcher.js"></script>
+  </body>
+</html>
